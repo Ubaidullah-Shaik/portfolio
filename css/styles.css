@@ -1,0 +1,115 @@
+body{
+    margin: 0; 
+    text-align: center;
+}
+
+h1{
+    margin-top: 10px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 80px;
+    margin: 10px;
+    
+}
+h2{
+    font-family: 'Comfortaa', cursive;
+    font-size: 35px;
+    color: #fff;
+}
+h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    color: rgb(39, 39, 92);
+}
+p1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+hr{
+     border-style: none;
+      border-top: dotted;
+      width: 200px;
+      border-color: gray;
+      border-width: 5px;
+}
+.p{
+        color: #AABBCC;
+        transition: all .1s linear;
+    }
+    p:hover{
+        color: white;
+    }
+
+
+
+.h1{
+    color: grey;
+    font-size: 20px;
+    font-family:'La Belle Aurore', cursive;
+}
+.h2{
+    color: grey;
+    font-size: 20px;
+    font-family:'La Belle Aurore', cursive;
+}
+.p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    
+}
+@keyframes moving-background {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 100% 0;
+    }
+  }
+
+.top-container{
+    
+    position: relative;
+    padding-top: 200px;
+    padding-bottom: 180px;
+    background-image: url("https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png");
+    background-repeat: repeat-x;
+    animation: moving-background 15s linear infinite;
+    
+}
+.profilepic{
+    padding-top: 50px;
+    border-radius: 50%;
+    width: 200px;
+}
+.glasses{
+    width: 50px;
+    position: absolute;
+    display: block;
+    margin-left: 650px;
+}
+
+    
+.middle-container{
+    background-color: #b0c1d3;
+}
+  
+.bottom-container{
+    background-color: #66BFBF;
+    height: 150px;
+    padding-top: 30px;
+    
+}
+.btn{
+    
+}
+a{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+.copyright{
+    color: #EAF6F6;
+    font-size: 16px;
+    padding: 20px 0;
+}
